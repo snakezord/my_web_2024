@@ -9,6 +9,7 @@ import "../styles/scss/style.scss";
 import "aos/dist/aos.css";
 
 import { ThemeProvider } from "next-themes";
+import { GoogleAnalytics } from "@next/third-parties/google";
 import ThemeSwitch from "@/components/switch/ThemeSwitch";
 
 import { Mulish, Montserrat, Poppins } from "next/font/google";
@@ -46,6 +47,7 @@ export default function RootLayout({ children }) {
 
   return (
     <html lang="en">
+      <GoogleAnalytics gaId="G-64S2MHKHRS" />
       <body
         className={`${MulishFonts.variable} ${MontserratFonts.variable}  ${PoppinsFonts.variable}  `}
       >

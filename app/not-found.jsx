@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 export const metadata = {
-  title: "404 || Roman Zhydyk - Personal Portfolio React Nextjs Template",
+  title: "404 || Roman Zhydyk - Shaping Futures, Defining AI",
 };
 const NotFound = () => {
   return (

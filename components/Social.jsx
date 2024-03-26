@@ -6,6 +6,10 @@ const SocialShare = [
     iconName: "in",
     link: "https://www.linkedin.com/in/roman-zhydyk-5a3374203/",
   },
+  {
+    iconName: "gh",
+    link: "https://github.com/snakezord",
+  },
 ];
 const Social = () => {
   return (

@@ -2,7 +2,27 @@ import Home from "@/components/home/Home";
 
 import Sidebar from "@/components/sidebar/Sidebar";
 export const metadata = {
-  title: "Home || Roman Zhydyk - Personal Portfolio",
+  metadataBase: new URL(
+    process.env.NODE_ENV === "development"
+      ? "http://localhost:3000"
+      : "https://www.romanintech.com"
+  ),
+  title: "Roman Zhydyk - Shaping Futures, Defining AI",
+  description:
+    "Focused on building the future with Generative AI, RAGs, and AI Agents.",
+  openGraph: {
+    images: "/img/slider/b_w_cropped.png",
+  },
+  twitter: {
+    card: "roman_zhydyk_card",
+    title: "Roman Zhydyk - Shaping Futures, Defining AI",
+    description:
+      "Focused on building the future with Generative AI, RAGs, and AI Agents.",
+    siteId: "1467726470533754880",
+    creator: "@roman_zhydyk",
+    creatorId: "1467726470533754880",
+    images: ["https://www.romanintech.com/img/slider/b_w_cropped.png"], // Must be an absolute URL
+  },
 };
 const index = () => {
   return (
