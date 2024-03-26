@@ -65,16 +65,6 @@ const Home = () => {
               <span>More about me</span>
             </Link>
           </div>
-
-          <div
-            style={{ width: "fit-content" }}
-            className="button"
-            data-position="right"
-          >
-            <Link href="/portfolio">
-              <span>My work</span>
-            </Link>
-          </div>
         </div>
       </div>
       {/* END HOME */}

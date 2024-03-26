@@ -17,12 +17,12 @@ module.exports = [
   //   menuName: "Service",
   //   routePath: "/service",
   // },
-  {
-    id: 4,
-    icon: "/img/svg/briefcase.svg",
-    menuName: "Portfolio",
-    routePath: "/portfolio",
-  },
+  // {
+  //   id: 4,
+  //   icon: "/img/svg/briefcase.svg",
+  //   menuName: "Portfolio",
+  //   routePath: "/portfolio",
+  // },
   // {
   //   id: 5,
   //   icon: "/img/svg/paper.svg",
