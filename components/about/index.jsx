@@ -57,41 +57,11 @@ const AboutMain = () => {
           </div>
         </div>
       </div>
-      {/* End .container */}
-
-      {/* <div className="progressbox">
-        <div className="container">
-          <div className="in">
-            <Skills />
-          </div>
-
-        </div>
-
-      </div> */}
-      {/* End progressbox */}
-
-      {/* <div className="skillbox">
-        <div className="container">
-          <div className="in">
-            <KnowledgeInterest />
-          </div>
-        </div>
-      </div> */}
-      {/* End .skillbox */}
-
-      <div className="resumebox">
-        <div className="container">
-          <div className="in">
-            <Resume />
-          </div>
-        </div>
-      </div>
-      {/* End resumebox */}
 
       <div className="testimonials">
         <div className="container">
           <div className="section_title">
-            <h3>Testimonials</h3>
+            <h3>What other say about me</h3>
           </div>
           <div className="list">
             <Testimonial />

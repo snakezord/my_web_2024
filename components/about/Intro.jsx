@@ -7,17 +7,19 @@ const Intro = () => {
     designation: "Software engineer",
     text: (
       <>
-        <p>
-          I'm pushing the limits of what's possible with Generative AI. I don't
-          just use AI; I make it bend to my will. My focus? Innovation and
-          entrepreneurship. I'm all about pushing limits, whether that's with my
-          body or mind. This isn't about playing it safe. It's about dominating
-          the game, transforming the digital landscape, and creating legacies
-          that last. Every move is strategic. The bottom line? I'm here to use
-          AI to carve out opportunities, to ensure that I, and those wise enough
-          to follow, aren't just participants in the digital age but rulers of
-          it. This is more than a job; It's a crusade against mediocrity. And I
-          am in the lead.
+        <p style={{ fontSize: "1rem" }}>
+          I am dedicated to exploring the full potential of Generative AI,
+          harnessing its capabilities to shape the future. <br /> My focus is on
+          innovation and entrepreneurship, constantly challenging both physical
+          and mental boundaries. <br />
+          This journey isn't about adhering to the conventional; it’s about
+          excelling and redefining the digital realm. <br />
+          My approach is meticulously strategic, aiming to leverage AI to lead
+          in the digital era, creating enduring legacies.
+          <br />
+          This endeavor goes beyond mere professional commitment—it’s a
+          passionate pursuit of excellence. <br />
+          And I am at the forefront of this transformative movement.
         </p>
       </>
     ),

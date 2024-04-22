@@ -39,8 +39,36 @@ const Home = () => {
             </h4>
 
             <p className="job">
-              Focused on building the future with Generative AI, RAGs, and AI
-              Agents.{" "}
+              Hi, my focus lies on building the future with Generative AI, RAGs,
+              and AI Agents. Currently working on{" "}
+              <strong>
+                <Link
+                  style={{ color: "#eab30a", textDecoration: "none" }}
+                  target="__blank"
+                  href="http://omnibrowse.io"
+                >
+                  Omnibrowse.io{" "}
+                </Link>
+                <span style={{ color: "whitesmoke" }}>
+                  - Next-gen web assistant.
+                </span>
+              </strong>
+              <br /> Previously at{" "}
+              <Link
+                style={{ color: "#e9c450", textDecoration: "none" }}
+                target="__blank"
+                href="http://joinlets.de"
+              >
+                Joinlets.de
+              </Link>{" "}
+              and before{" "}
+              <Link
+                style={{ color: "#e9c450", textDecoration: "none" }}
+                target="__blank"
+                href="http://spicefactory.co"
+              >
+                Spicefactory.co
+              </Link>
             </p>
             {/* END JOB */}
             <Social />
